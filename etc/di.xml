@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * HTS Inc.
+ *
+ * @category  HTS
+ * @package   Hts_Security
+ * @author    HTS
+ * @copyright Copyright (c) HTS Inc.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="\Hts\Security\Api\LockDownInterface" type="\Hts\Security\Model\LockDown"/>
+    <preference for="\Hts\Security\Api\AlertInterface" type="\Hts\Security\Model\Alert"/>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * HTS Inc.
+ *
+ * @category  HTS
+ * @package   Hts_Security
+ * @author    HTS
+ * @copyright Copyright (c) HTS Inc.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+
+    <system>
+        <tab id="hts" translate="label" sortOrder="100">
+            <label>HTS</label>
+        </tab>
+
+        <section id="hts_security_general" translate="label" type="text" sortOrder="0" showInDefault="1"
+                 showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>General config</label>
+            <tab>hts</tab>
+            <resource>Hts_Security::config</resource>
+        </section>
+    </system>
+</config>
