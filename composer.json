@@ -1,5 +1,5 @@
 {
-  "name": "hts/security",
+  "name": "htsr/security",
   "description": "Magento2 Security",
   "require": {
     "php": "^8.0|^8.1|^8.2",
